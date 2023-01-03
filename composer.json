@@ -1,0 +1,34 @@
+{
+    "name": "mykholy/laravel-paymob",
+    "description": "paymob integration for laravel",
+    "homepage": "https://github.com/mykholy/laravel-paymob",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed El-kholy",
+            "email": "mykholys30@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Laravel",
+        "PayMob"
+    ],
+    "require": {
+        "illuminate/support": "^7.0|^8.0|^9.0"
+  },
+    "autoload": {
+        "psr-4": {
+            "mykholy\\PayMob\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mykholy\\PayMob\\PayMobServiceProvider"
+            ],
+            "aliases": {
+                "PayMob": "mykholy\\PayMob\\Facades\\PayMob"
+            }
+        }
+    }
+}
