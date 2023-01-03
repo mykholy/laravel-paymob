@@ -100,4 +100,4 @@
 
 ### Security
 
-If you discover any security-related issues, please email [mykholy-dev@protonmail.com](mailto:mykholy-dev@protonmail.com).
+If you discover any security-related issues, please email [mykholy@protonmail.com](mailto:mykholy@protonmail.com).
